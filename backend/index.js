@@ -19,7 +19,7 @@ app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({policy: "cross-origin"}));
 app.use(morgan("common"));
 // Middleware for parsing JSON request bodies with limit and extended options
-app.use(express.json({ limit: '30mb', extended: true }));
+app.use(express.json({limit: '30mb', extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 app.use("/assets", express.static(path.join(__dirname, "public/assets"))) // setting directory of wheer we keep our assets
@@ -36,4 +36,16 @@ const storage = multer.diskStorage({
 });
 const upload = multer({storage});
 
-console.log("test")
+/* MONGOOSE SETUP */
+const PORT = process.env.PORT || 8001;
+
+mongoose.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    app.listen(PORT, () =>{
+        console.log(`Listening on port ${PORT}`)
+    })
+}).catch((error) => {
+    console.log(`ERROR: ${error} did not connect`)
+})
