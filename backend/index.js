@@ -1,17 +1,24 @@
 import express from "express";
-import bodyParser from "body-parser";
+import bodyParser from "body-parser";   // parsin through json
 import mongoose from "mongoose";
-import cors from "cors"
-import dotenv from "dotenv"
-import multer from "multer";
-import morgan from "morgan"
+import cors from "cors" //  Cross-Origin Resource Sharing and allows making cross-origin HTTP requests from a web browser.
+import dotenv from "dotenv" // for .env
+import multer from "multer";        // uploads
+import morgan from "morgan" // http request logging
 import path from "path";
 import {fileURLToPath} from "url";
-import helmet from "helmet";
+import helmet from "helmet";    // securing HTTP headers
+import {register} from "./controllers/auth.js";
+import authRoutes from "./routes/auth.js"
+
 
 /* CONFIGURATIONS */
+//  Creates a constant __filename that holds the file path of the currently executing module.
 const __filename = fileURLToPath(import.meta.url);
+
+//  Creates a constant __dirname that holds the directory path of the currently executing module.
 const __dirname = path.dirname(__filename);
+
 dotenv.config();
 const app = express();
 app.use(express.json());
@@ -35,6 +42,16 @@ const storage = multer.diskStorage({
     }
 });
 const upload = multer({storage});
+
+
+/* ROUTES  WITH FILES ! */
+/* toto tu musi byt protoze pouzivame upload*/
+app.post("/auth/register", upload.single("picture"), register);
+
+
+
+/* ROUTES */
+app.use("/auth", authRotues);
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 8001;
