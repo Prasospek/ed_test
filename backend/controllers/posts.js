@@ -14,53 +14,43 @@ export const createPost = async (req, res) => {
             description,
             userPicturePath: user.picturePath,
             picturePath,
-            likes: {
-                // someid: "true"
-            },
+            likes: {},
             comments: [],
-        })
-
+        });
         await newPost.save();
 
         const post = await Post.find();
-
         res.status(201).json(post);
     } catch (err) {
-        res.status(409).json({message: "CREATEPOST ERROR," + err.message})
+        res.status(409).json({message: "CREATEPOST ERORRITO" + err.message});
     }
-}
+};
 
 /* READ */
-
 export const getFeedPosts = async (req, res) => {
     try {
         const post = await Post.find();
-
         res.status(200).json(post);
-
     } catch (err) {
-        res.status(404).json({message: "GETFEEDPOSTS ERROR," + err.message})
+        res.status(404).json({message: "GETFEEDPOSTS ERORRITO" + err.message});
     }
-}
+};
 
 export const getUserPosts = async (req, res) => {
     try {
         const {userId} = req.params;
-        const post = await Post.findById(userId);
+        const post = await Post.find({userId});
         res.status(200).json(post);
-
     } catch (err) {
-        res.status(404).json({message: "GETUSERPOSTS ERROR," + err.message})
+        res.status(404).json({message: "GETUSERPOSTS ERORRITO" + err.message});
     }
-}
+};
 
 /* UPDATE */
-
 export const likePost = async (req, res) => {
     try {
         const {id} = req.params;
         const {userId} = req.body;
-
         const post = await Post.findById(id);
         const isLiked = post.likes.get(userId);
 
@@ -70,14 +60,14 @@ export const likePost = async (req, res) => {
             post.likes.set(userId, true);
         }
 
-        const updatedPost = Post.findByIdAndUpdate(
-            id, {likes: post.likes},
+        const updatedPost = await Post.findByIdAndUpdate(
+            id,
+            {likes: post.likes},
             {new: true}
-        )
-
+        );
 
         res.status(200).json(updatedPost);
     } catch (err) {
-        res.status(404).json({message: "LIKEPOST ERROR," + err.message})
+        res.status(404).json({message: "LIKEPOST ERORRITO" + err.message});
     }
-}
+};

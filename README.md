@@ -12,9 +12,9 @@ Test
 <b> 8.) </b> Vytvoreni middleware slozky -> auth.js <br>
 <b> 9.) </b> Routes -> users.js vytvoreni definuju routes (v indexu app.use(routes bla bla))<br>
 <b> 10.) </b> Controllers -> users.js (vytvorim getuser, getuserfriends, addremovefriend)<br>
-<b> 11.) </b> index.js post routes  (i s file) -> routes -> post.js. (bude hazet error nemam definovany ty funkce) <br>
+<b> 11.) </b> index.js post routes  (i s file) -> routes -> posts.js. (bude hazet error nemam definovany ty funkce) <br>
 <b> 12.) </b> Tytvorim Post model v /models <br>
-<b> 13.) </b> Jdu do controllers -> post.js <br>
+<b> 13.) </b> Jdu do controllers -> posts.js <br>
 <b> 14.) </b> Data -> index.js nakopiruju z gitu <br>
 <b> 15.) </b> naimportuju User a Post a {users, posts} do index.js <br>
 <b> 16.) </b> Controllers ->Post <br>
