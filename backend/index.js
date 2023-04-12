@@ -52,7 +52,7 @@ app.post("/auth/register", upload.single("picture"), register);
 
 
 /* ROUTES */
-app.use("/auth", authRotues);
+app.use("/auth", authRoutes);
 app.use("/users", userRoutes)
 
 
