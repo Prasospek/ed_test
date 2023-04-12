@@ -10,5 +10,5 @@ Test
 6.) Udelam routes v index js a nasledne vytvorim Rotues -> auth.js (nevytvarim routes)<br>
 7.) Llogin v controllers -> auth.js<br>
 8.) Vytvoreni middleware slozky -> auth.js
-9.) Routes -> users.js vytvoreni definuju routes (v indexu app.use(routes bla bla))
-10.) Controllers -> users.js (vytvorim getuser, getuserfriends, addremovefriend)
+9.) Routes -> users.js vytvoreni definuju routes (v indexu app.use(routes bla bla))<br>
+10.) Controllers -> users.js (vytvorim getuser, getuserfriends, addremovefriend)<br>
