@@ -17,3 +17,6 @@ Test
 <b> 13.) </b> Jdu do controllers -> post.js <br>
 <b> 14.) </b> Data -> index.js nakopiruju z gitu <br>
 <b> 15.) </b> naimportuju User a Post a {users, posts} do index.js <br>
+<b> 16.) </b> Controllers ->Post <br>
+
+<b> 17.) </b> _____ FRONTEND _______ <br>
