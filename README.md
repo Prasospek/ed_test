@@ -7,4 +7,5 @@ Test
 3.) vytvoreni controllers a modelu slozky
 4.) Definovani UserSchema
 5.) Controllers ->auth -> Register
-6.) Udelam routes v index js a nasledne vytvorim Rotues -> auth.js
+6.) Udelam routes v index js a nasledne vytvorim Rotues -> auth.js (nevytvarim routes)
+7.) login v controllers -> auth.js

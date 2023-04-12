@@ -51,7 +51,7 @@ app.post("/auth/register", upload.single("picture"), register);
 
 
 /* ROUTES */
-app.use("/auth", authRotues);
+//app.use("/auth", authRotues);
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 8001;
