@@ -8,7 +8,7 @@ Test
 <b> 4.) </b> Definovani UserSchema<br>
 <b> 5.) </b> Controllers ->auth -> Register<br>
 <b> 6.) </b> Udelam routes v index js a nasledne vytvorim Rotues -> auth.js (nevytvarim routes)<br>
-<b> 7.) </b>) Llogin v controllers -> auth.js<br>
+<b> 7.) </b> Login v controllers -> auth.js<br>
 <b> 8.) </b> Vytvoreni middleware slozky -> auth.js <br>
 <b> 9.) </b> Routes -> users.js vytvoreni definuju routes (v indexu app.use(routes bla bla))<br>
 <b> 10.) </b> Controllers -> users.js (vytvorim getuser, getuserfriends, addremovefriend)<br>
