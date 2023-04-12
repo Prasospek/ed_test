@@ -1,4 +1,4 @@
-# ed_test
+# Sociopedia_Ed_
 Socio
 Test
 
@@ -12,3 +12,6 @@ Test
 8.) Vytvoreni middleware slozky -> auth.js <br>
 9.) Routes -> users.js vytvoreni definuju routes (v indexu app.use(routes bla bla))<br>
 10.) Controllers -> users.js (vytvorim getuser, getuserfriends, addremovefriend)<br>
+11.) index.js post routes  (i s file) -> routes -> post.js. (bude hazet error nemam definovany ty funkce)
+12.) Tytvorim Post model v /models
+13.) Jdu do controllers -> post.js
