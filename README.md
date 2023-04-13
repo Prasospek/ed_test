@@ -22,6 +22,10 @@ Test
 <b> 17.) </b> _____ FRONTEND _______ <br>
 
 <b> 18.) </b> Stahnu si vsechno potrebny, smazu webvitals co nepotrebuju, stahnu si fonty z google fonts a dam je do index.css <br>
-<b> 19.) </b> vytvorim slozku assets a dam tam linkedin a twitter obrazek nakopirovanej z be slozky <br>
+<b> 19.) </b> public -> vytvorim slozku assets a dam tam linkedin a twitter obrazek nakopirovanej z be slozky <br>
 <b> 20.) </b> vytvorim jsonconfig.json <br>
 <b> 21.) </b> Src -> Scenes -> folders homepage loginpage profilepage navbar widgets <br>
+<b> 21.) </b> Src src-> Components a state slozky <br>
+<b> 22.) </b> Po vytvoreni scenes ke vsem hodim konstru s index.jsx (return div a jmeno) jen kostru <br>
+<b> 23.) </b> Importy v app.js browser, route navigate bla bla a komponenty<br>
+<b> 24.) </b> State -> index.js<br>
