@@ -20,3 +20,8 @@ Test
 <b> 16.) </b> Controllers ->Post <br>
 
 <b> 17.) </b> _____ FRONTEND _______ <br>
+
+<b> 18.) </b> Stahnu si vsechno potrebny, smazu webvitals co nepotrebuju, stahnu si fonty z google fonts a dam je do index.css <br>
+<b> 19.) </b> vytvorim slozku assets a dam tam linkedin a twitter obrazek nakopirovanej z be slozky <br>
+<b> 20.) </b> vytvorim jsonconfig.json <br>
+<b> 21.) </b> Src -> Scenes -> folders homepage loginpage profilepage navbar widgets <br>

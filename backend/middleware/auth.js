@@ -25,3 +25,5 @@ export const verifyToken = async (req, res, next) => {
         res.status(500).json({error: "ERROR VERIFY TOKEN", err})
     }
 }
+
+// const token = authHeader.replace("Bearer ", ""); // Remove "Bearer " prefix from the token
