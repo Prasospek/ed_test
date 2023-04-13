@@ -29,4 +29,4 @@ Test
 <b> 22.) </b> Po vytvoreni scenes ke vsem hodim konstru s index.jsx (return div a jmeno) jen kostru <br>
 <b> 23.) </b> Importy v app.js browser, route navigate bla bla a komponenty<br>
 <b> 24.) </b> State -> index.js  <br>
-<b> 25.) </b> V Index složce nastavim purge register persistgate store atd atd  <br>
+<b> 25.) </b> V Index složce nastavim purge register persistgate store a cely to nakonfiguruju (pry je to boilerplate ?)  <br>
