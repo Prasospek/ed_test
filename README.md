@@ -30,3 +30,4 @@ Test
 <b> 23.) </b> Importy v app.js browser, route navigate bla bla a komponenty<br>
 <b> 24.) </b> State -> index.js  <br>
 <b> 25.) </b> V Index složce nastavim purge register persistgate store a cely to nakonfiguruju (pry je to boilerplate ?)  <br>
+<b> 26.) </b> src ->theme.js a okopirovani css   <br>
