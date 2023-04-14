@@ -30,4 +30,10 @@ Test
 <b> 23.) </b> Importy v app.js browser, route navigate bla bla a komponenty<br>
 <b> 24.) </b> State -> index.js  <br>
 <b> 25.) </b> V Index složce nastavim purge register persistgate store a cely to nakonfiguruju (pry je to boilerplate ?)  <br>
-<b> 26.) </b> src ->theme.js a okopirovani css   <br>
+<b> 26.) </b> src ->theme.js a okopirovani css dodelani typography a tak <br>
+<b> 27.) </b> V main index.js dodelat importy usememo uselector etc etc, a pridani ThemeProvider <br>
+<b> 28.) </b> Components -> FlexBetween jsx <br>
+<b> 29.) </b> Scenes ->navbar pracuju na tomto <br>
+<b> 30.) </b> Prubezne ho dam treba na homepage a testuju to (user error ? firstname last name) <br>
+<b> 31.) </b> Scenes- > LoginPage vytvoreni <br>
+<b> 32.) </b> Scenes-> LoggingPage ->Form.jsx vytvoreni <br>
