@@ -36,4 +36,8 @@ Test
 <b> 29.) </b> Scenes ->navbar pracuju na tomto <br>
 <b> 30.) </b> Prubezne ho dam treba na homepage a testuju to (user error ? firstname last name) <br>
 <b> 31.) </b> Scenes- > LoginPage vytvoreni <br>
-<b> 32.) </b> Scenes-> LoggingPage ->Form.jsx vytvoreni <br>
+<b> 32.) </b> Scenes-> LoggingPage ->Form.jsx vytvoreni. Udelam tu return -> pak handleFormSubmit a potom register a login<br>
+<b> 33.) </b> Doplnim v App.js Is auth potom co dodelam loginPage <br>
+<b> 34.) </b> Vytvorim v components WidgetWrapper a pracuju na nem <br>
+<b> 35.) </b>  Vytvorim UserImage.jsx v components <br>
+<b> 36.) </b>  Scenes->widgets -> vytvorim userWidgets.jsx <br>
