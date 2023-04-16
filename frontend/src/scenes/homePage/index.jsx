@@ -3,7 +3,7 @@ import Navbar from "../navbar";
 import {useSelector} from "react-redux";
 import UserWidget from "../widgets/UserWidget";
 // 38 KROK ZDE mypostwidget
-import My
+import MyPostWidget from "../widgets/MyPostWidget";
 
 
 const HomePage = () => {
