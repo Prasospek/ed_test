@@ -44,4 +44,6 @@ Test
 <b> 37.) </b>  Scenes -> homepage ->index dodelat<br>
 <b> 38.) </b>  Scenes -> widgets -> myPostWidget <br>
 <b> 39.) </b>  Postupne kousek po kousku vytvarim ty jednotlivy casti tzn, 1.) kde vidim svuj profil views a tak 2.) Whats on your mind ? vyhledavani atd atd <br>
+<b> 40.) </b>  Scenes -> widgets ->vytvorim PostsWidget.jsx a PostWidget.jsx <br>
+<b> 41.) </b>  Delam PostSWidget.jsx <br>
 

@@ -12,8 +12,9 @@ import {
     Box, Divider, Typography,
     InputBase, useTheme, Button,
     IconButton, useMediaQuery
-}
-    from "@mui/material";
+} from "@mui/material";
+
+
 import Dropzone from "react-dropzone";
 import FlexBetween from "../../components/FlexBetween";
 import UserImage from "../../components/UserImage";
@@ -46,7 +47,7 @@ const MyPostWidget = ({picturePath}) => {
     const handlePost = async () => {
         // so we can pass image
         const formData = new FormData();
-        formData.append("userID", _id);
+        formData.append("userId", _id);
         formData.append("description", post);
 
         //u app.post("/posts") mame upload.single("picture") takze to bere jako key ten picture
@@ -137,14 +138,18 @@ const MyPostWidget = ({picturePath}) => {
 
             <Divider sx={{margin: "1.25rem 0"}}/>
 
+
+            {/*SPODNI TLACITKA ZDE ! */}
+
             <FlexBetween>
                 <FlexBetween
                     gap={"0.25rem"}
-                    onClick={() => setImage(!isImage)}
+                    onClick={() => setIsImage(!isImage)}
                 >
                     <ImageOutlined sx={{color: mediumMain}}/>
                     <Typography
                         color={mediumMain}
+                        // color red je tu pro debugovani
                         sx={{"&:hover": {cursor: "pointer", color: medium}}}
                     >
                         Image
