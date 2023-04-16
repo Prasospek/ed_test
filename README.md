@@ -43,3 +43,5 @@ Test
 <b> 36.) </b>  Scenes->widgets -> vytvorim userWidgets.jsx <br>
 <b> 37.) </b>  Scenes -> homepage ->index dodelat<br>
 <b> 38.) </b>  Scenes -> widgets -> myPostWidget <br>
+<b> 39.) </b>  Postupne kousek po kousku vytvarim ty jednotlivy casti tzn, 1.) kde vidim svuj profil views a tak 2.) Whats on your mind ? vyhledavani atd atd <br>
+
