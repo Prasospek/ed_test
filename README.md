@@ -41,3 +41,5 @@ Test
 <b> 34.) </b> Vytvorim v components WidgetWrapper a pracuju na nem <br>
 <b> 35.) </b>  Vytvorim UserImage.jsx v components <br>
 <b> 36.) </b>  Scenes->widgets -> vytvorim userWidgets.jsx <br>
+<b> 37.) </b>  Scenes -> homepage ->index dodelat<br>
+<b> 38.) </b>  Scenes -> widgets -> myPostWidget <br>
