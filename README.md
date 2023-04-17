@@ -50,4 +50,7 @@ Test
 <b> 42.) </b>  Delam PostWidget.jsx (zjistim ze potrebuju improt Frienda tak ho vytvorim<br>
 <b> 43.) </b>  Src -> components -> Friend.jsx (Friend je friendlist v pravo dole) <br>
 <b> 44.) </b>  src ->widgets -> postwidget dodelam <br>
+<b> 45.) </b>  src ->widgets -> AdvertWidget.jsx (az to dodelam dam to do homepage) <br>
+<b> 46.) </b>  scenes ->widgets -> FriendListWidget vytvorim a udelam <br>
+<b> 47.) </b>  scenes -> profilePage dodelam  <br>
 

@@ -4,7 +4,9 @@ import {useSelector} from "react-redux";
 import UserWidget from "../widgets/UserWidget";
 // 38 KROK ZDE mypostwidget
 import MyPostWidget from "../widgets/MyPostWidget";
-
+import PostsWidget from "../widgets/PostsWidget";
+import AdvertWidget from "../widgets/AdvertWidget";
+import FriendListWidget from "../widgets/FriendListWidget";
 
 const HomePage = () => {
     const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
@@ -29,13 +31,28 @@ const HomePage = () => {
                      mt={isNonMobileScreens ? undefined : "2rem"}
                 >
                     <MyPostWidget picturePath={picturePath} userId={_id}/>
+
+
+                    {/*PRIDANO AZ PO DODELANI POSTWIDGET.jsx*/}
+                    <PostsWidget userId={_id}/>
+                    {/*PRIDANO AZ PO DODELANI POSTWIDGET.jsx*/}
                 </Box>
                 {isNonMobileScreens && (
+
                     <Box flexBasis={"26%"}>
+                        <AdvertWidget/>
+                        <Box mt={"2rem"}>
+                            <AdvertWidget/>
+                        </Box>
+
+                        <Box m={"2rem 0"}/>
+                        <FriendListWidget userId={_id}/>
                     </Box>
                 )}
+
             </Box>
         </Box>
+
     )
 }
 

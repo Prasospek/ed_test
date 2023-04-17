@@ -38,7 +38,7 @@ const PostsWidgets = ({userId, isProfile = false}) => {
     }, []) // // eslint-disable-next-line react-hooks/exhaustive-deps
     // giving here an empty array so it only calls once
 
-
+    // NEZOBRAZOVALO SE MI U USERU OBLICEJ V POSTECH VYRESIM TO ZDE
     return (
         <>
             {/*CREATING COMPONENT FOR EACH POST */}
@@ -51,20 +51,23 @@ const PostsWidgets = ({userId, isProfile = false}) => {
                      description,
                      location,
                      picturePath,
-                     userPicture,
+                     userPicturePath,
                      likes,
                      comments,
                  }) => (
                     <PostWidget
                         // je tu treba key aby nam react nedal error
+                        //  Warning: Each child in a list should have a unique "key" prop.
                         key={_id}
                         postId={_id}
-                        userId={userId}
+                        // TADY SE NEZOBRAZOVAL OBRAZEK UZIVATELU VE FEEDU
+                        // KDYZ TU BYLO userId = {userId} tak mi to hazelo friends.find is not a function
+                        postUserId={userId}
                         name={`${firstName}${lastName}`}
                         description={description}
                         location={location}
                         picturePath={picturePath}
-                        userPicture={userPicture}
+                        userPicturePath={userPicturePath}
                         likes={likes}
                         comments={comments}
                     />
