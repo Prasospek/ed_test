@@ -57,7 +57,7 @@ const Navbar = () => {
                         },
                     }}
                 >
-                    Sociopedia
+                    Prasospek Land
                 </Typography>
                 {isNonMobileScreens && (
                     <FlexBetween
