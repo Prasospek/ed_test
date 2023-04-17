@@ -1,4 +1,5 @@
 # Sociopedia_Ed_
+
 Socio
 Test
 
@@ -46,4 +47,7 @@ Test
 <b> 39.) </b>  Postupne kousek po kousku vytvarim ty jednotlivy casti tzn, 1.) kde vidim svuj profil views a tak 2.) Whats on your mind ? vyhledavani atd atd <br>
 <b> 40.) </b>  Scenes -> widgets ->vytvorim PostsWidget.jsx a PostWidget.jsx <br>
 <b> 41.) </b>  Delam PostSWidget.jsx <br>
+<b> 42.) </b>  Delam PostWidget.jsx (zjistim ze potrebuju improt Frienda tak ho vytvorim<br>
+<b> 43.) </b>  Src -> components -> Friend.jsx (Friend je friendlist v pravo dole) <br>
+<b> 44.) </b>  src ->widgets -> postwidget dodelam <br>
 
